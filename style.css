@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 60%;
+  margin-top: 10px;
+}
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 5%,
+      rgba(0, 0, 0, 0.5) 5%
+    ),
+    url(images/ltpback.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+}
+.navbar {
+  width: 1200px;
+  height: 95px;
+  margin: auto;
+}
+.icon {
+  width: 200px;
+  border-left: none;
+  float: left;
+  height: 10px;
+  background-color: transparent;
+}
+.MENU {
+  width: 200px;
+  height: 50px;
+  float: left;
+}
+ul {
+  float: left;
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  margin-right: 199px;
+}
+ul li {
+  font-family: Arial;
+  margin-left: 60px;
+  margin-top: 35px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+ul li a {
+  color: white;
+  font-style: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+li a:hover {
+  color: rgb(146, 242, 12);
+}
+.search {
+  width: 330px;
+  margin-top: 20px;
+  float: right;
+}
+.srch {
+  font-family: "Times New Roman";
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 0px solid rgb(208, 161, 246);
+  color: white;
+  margin-right: none;
+  font-size: 14px;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: linear-gradient(107.65deg, #17c969 17.53%, #005dbb 94.64%);
+  color: rgb(136, 49, 250);
+  border: 1px saddlebrown;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: none;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: black;
+  color: wheat;
+}
+.tp a {
+  margin-top: 50px;
+  margin-right: none;
+  float: right;
+  color: grey;
+  margin-right: 100px;
+}
+.my_self {
+  margin-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: rgb(138, 142, 145);
+}
+.my_self a {
+  color: rgb(86, 168, 86);
+}
+.flt {
+  color: rgb(202, 48, 48);
+  float: right;
+  float: bottom;
+
+  font-size: 15px;
+}
+.flt a {
+  color: blue;
+  float: right;
+  margin-right: 20px;
+  font-size: 15px;
+}
+.my_self h2 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+.des {
+  font-size: 16px;
+  color: gray;
+}
+
+.content {
+  height: auto;
+  width: auto;
+  margin-left: 50px;
+  font-size: 20px;
+  color: white;
+}
+.content h1 {
+  font-size: 55px;
+  margin-top: 35px;
+}
+.content span {
+  color: orange;
+  font-size: 66px;
+}
+.span {
+  color: orange;
+  margin-left: 15px;
+}
+.jns {
+  height: 45px;
+  width: 150px;
+  border: 1px;
+  cursor: pointer;
+  margin-top: 15px;
+  background-color: orange;
+  border-radius: 9%;
+  font-size: 25px;
+  font-family: Georgia;
+  color: black;
+  transition: 0.4s;
+}
+.jns:hover {
+  color: rgb(81, 200, 221);
+  background-color: white;
+}
+.login {
+  width: 280px;
+  height: 400px;
+  background: transparent;
+  position: absolute;
+  top: 150px;
+  left: 1050px;
+  border-radius: 10px;
+  padding: 25px;
+}
+.login h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: centre;
+  color: rgb(219, 212, 199);
+  font-size: 22px;
+  background-color: rgb(33, 13, 65);
+  border-radius: 6%;
+  margin: 5px;
+  padding: 9px;
+}
+.login input {
+  height: 35px;
+  width: 240px;
+  background: transparent;
+  border-bottom: solid orange;
+  border-top: none;
+  color: rgb(255, 255, 255);
+  border-left: none;
+  border-right: none;
+  margin-top: 10px;
+  font-size: 13px;
+  letter-spacing: 1px;
+
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+.login input :focus {
+  outline: none;
+}
+::placeholder {
+  color: white;
+  font-family: Arial;
+}
+.btnn {
+  width: 250px;
+  height: 40px;
+  background-color: orange;
+  background: rgb(122, 140, 140);
+  font-size: 18px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5%;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+}
+.btnn:hover {
+  background: black;
+  color: gold;
+}
+.btnn a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.login .link {
+  font-family: Arial;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+.login .link a {
+  text-decoration: none;
+  color: orange;
+}
+.lgnw {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.icon ion-icon {
+  text-decoration: none;
+  color: white;
+  padding-left: 16px;
+  padding-top: 5px;
+  transition: 0.5s;
+}
+.icon ion-icon:hover {
+  color: orange;
+}
